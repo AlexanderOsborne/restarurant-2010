@@ -28,11 +28,12 @@ attr_reader :name, :dishes, :opening, :closing
     end
   end
 
-  # def menu_dish_names
-  #   @dishes.each do |dish|
-  #     dish.upcase
-  #     p dish
-  #   end
-  # end
+  def menu_dish_names
+    excited = []
+    @dishes.each do |dish|
+      dish.upcase << excited
+      p excited
+    end
+  end
 
 end
